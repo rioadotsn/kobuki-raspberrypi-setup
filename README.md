@@ -140,7 +140,30 @@ roscore
    source devel/setup.bash
    rosrun my_robot_control hello_world_node
    ```
+5. **Write Your Python Node**
+   Create a `scripts/hello_world.py` file inside the `my_robot_control` package:
+   ```python
+   #!/usr/bin/env python3
+   import rospy
 
+   if __name__ == "__main__":
+       rospy.init_node("hello_world_node")
+       rospy.loginfo("Hello, ROS World from Python!")
+       rospy.spin()
+   ```
+
+6. **Make the Script Executable**
+   Set the appropriate permissions for the Python script:
+   ```bash
+   chmod +x scripts/hello_world.py
+   ```
+
+7. **Run Your Python Node**
+   Source your workspace and launch the node:
+   ```bash
+   source devel/setup.bash
+   rosrun my_robot_control hello_world.py
+   ```
 ---
 
 ## License
