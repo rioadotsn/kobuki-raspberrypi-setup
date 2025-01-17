@@ -41,7 +41,7 @@ The Kobuki robot base can be controlled via a Raspberry Pi running ROS Noetic. T
 ### Step 1: Update System
 Update your system to ensure all packages are up-to-date:
 ```bash
-sudo apt update && sudo apt upgrade -y
+sudo apt update
 ```
 
 ### Step 2: Install ROS Noetic
