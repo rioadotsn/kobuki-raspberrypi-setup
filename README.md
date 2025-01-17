@@ -58,20 +58,8 @@ The Kobuki robot base can be controlled via a Raspberry Pi running ROS Noetic. T
 
 ### Step 3: Set Up Workspace
 
-  mkdir -p ~/catkin_ws/src
-  cd ~/catkin_ws/
+  mkdir -p ~/your_ws/src
+  
+  cd ~/your_ws/
+  
   catkin_make
-
-
-
-
-
-
-
-
-
-
-
-
-
-
