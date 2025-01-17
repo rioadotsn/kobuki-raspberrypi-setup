@@ -49,11 +49,13 @@ The Kobuki robot base can be controlled via a Raspberry Pi running ROS Noetic. T
   source /opt/ros/noetic/setup.bash
 
   echo "source /opt/ros/noetic/setup.bash" >> ~/.bashrc
+  
   source ~/.bashrc
 
   sudo apt install python3-rosdep python3-rosinstall python3-rosinstall-generator python3-wstool build-essential
 
   sudo rosdep init
+  
   rosdep update
 
 ### Step 3: Set Up Workspace
