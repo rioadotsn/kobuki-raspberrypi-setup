@@ -152,20 +152,27 @@ roscore
        rospy.spin()
    ```
 
-6. **Make the Script Executable**
+6. **Update CMakeLists.txt**
+   Modify the `CMakeLists.txt` file to install the Python script:
+   ```cmake
+   catkin_install_python(PROGRAMS
+     scripts/hello_world.py
+     DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
+   )
+   ```
+
+7. **Make the Script Executable**
    Set the appropriate permissions for the Python script:
    ```bash
    chmod +x scripts/hello_world.py
    ```
 
-7. **Run Your Python Node**
+8. **Run Your Python Node**
    Source your workspace and launch the node:
    ```bash
    source devel/setup.bash
    rosrun my_robot_control hello_world.py
    ```
----
-
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
