@@ -8,7 +8,6 @@ This repository provides a step-by-step guide to configure a Raspberry Pi runnin
 3. [Installation Steps](#installation-steps)
 4. [Testing and Verification](#testing-and-verification)
 5. [Adding a Custom ROS Package](#adding-a-custom-ros-package)
-6. [License](#license)
 
 ---
 
@@ -173,6 +172,3 @@ roscore
    source devel/setup.bash
    rosrun my_robot_control hello_world.py
    ```
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
