@@ -8,7 +8,7 @@ This repository provides a step-by-step guide to configure a Raspberry Pi runnin
 3. [Installation Steps](#installation-steps)
 4. [Testing and Verification](#testing-and-verification)
 5. [Adding a Custom ROS Package](#adding-a-custom-ros-package)
-
+6. [Kobuki on ROS Noetic](#Kobuki-on-ROS-Noetic)
 ---
 
 ## Introduction
@@ -172,3 +172,5 @@ roscore
    source devel/setup.bash
    rosrun my_robot_control hello_world.py
    ```
+## Kobuki on ROS Noetic
+   https://github.com/rioadotsn/kobuki_custom.git
