@@ -37,13 +37,7 @@ The Kobuki robot base can be controlled via a Raspberry Pi running ROS Noetic. T
 
 ## Installation Steps
 
-### Step 1: Update System
-Update your system to ensure all packages are up-to-date:
-```bash
-sudo apt update
-```
-
-### Step 2: Install ROS Noetic
+### Step 1: Install ROS Noetic
 Follow the official instructions to install ROS Noetic:
 1. Set up your sources list:
    ```bash
@@ -79,7 +73,7 @@ Follow the official instructions to install ROS Noetic:
    sudo apt install python3-rosinstall python3-rosinstall-generator python3-wstool build-essential
    ```
 
-### Step 3: Set Up Catkin Workspace
+### Step 2: Set Up Catkin Workspace
 Create and initialize a catkin workspace:
 ```bash
 mkdir -p ~/your_ws/src
