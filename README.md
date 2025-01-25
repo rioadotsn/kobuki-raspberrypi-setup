@@ -56,21 +56,20 @@ Follow the official instructions to install ROS Noetic:
    sudo apt install ros-noetic-desktop-full
    ```
 
-4. Initialize rosdep:
-   ```bash
-   sudo rosdep init
-   rosdep update
-   ```
-
-5. Add ROS to your bash session:
+4. Add ROS to your bash session:
    ```bash
    echo "source /opt/ros/noetic/setup.bash" >> ~/.bashrc
    source ~/.bashrc
    ```
-
-6. Install build dependencies:
+5. Install build dependencies:
    ```bash
-   sudo apt install python3-rosinstall python3-rosinstall-generator python3-wstool build-essential
+   sudo apt install python3-rosdep python3-rosinstall python3-rosinstall-generator python3-wstool build-essential
+   ```
+   
+6. Initialize rosdep:
+   ```bash
+   sudo rosdep init
+   rosdep update
    ```
 
 ### Step 2: Set Up Catkin Workspace
